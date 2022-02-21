@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>Judit Conde</title>
+
+    <!-- Favicon 
+    <link rel="icon" href="./img/core-img/favicon.png"> -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📷</text></svg>">
+
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- /Preloader -->
+
+    <!-- Top Search Form Area -->
+    <div class="top-search-area">
+        <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <!-- Close -->
+                        <button type="button" class="btn close-btn" data-dismiss="modal"><i class="ti-close"></i></button>
+                        <!-- Form -->
+                        <form action="index.html" method="post">
+                            <input type="search" name="top-search-bar" class="form-control" placeholder="Search and hit enter...">
+                            <button type="submit"></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Area Start -->
+    <header class="header-area">
+        <!-- Main Header Start -->
+        <div class="main-header-area">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Classy Menu -->
+                    <nav class="classy-navbar justify-content-between" id="alimeNav">
+
+                        <!-- Logo -->
+                        <a class="nav-brand" href="./index.html"><img src="" alt=""></a>
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+                            <!-- Menu Close Button -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul id="nav">   
+                                    <li id="home_link" class="active"><a href="#home" onclick= "setActive('home')" class="smoothscroll">Home</a></li>
+                                    <li id="gallery_link"><a href="#gallery" onclick= "setActive('gallery')" class="smoothscroll">Gallery</a></li>
+                                    <li id="about_link"><a href="#id_about" onclick= "setActive('about')" class="smoothscroll">About</a></li>
+                                    <li id="contact_link"><a href="#id_contact" onclick= "setActive('contact')" class="smoothscroll">Contact</a></li>
+                                    
+                                </ul>
+
+                                <!-- Search Icon -->
+                                <!--<div class="search-icon" data-toggle="modal" data-target="#searchModal"><i class="ti-search"></i></div>-->
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Area End -->
+
+    <!-- Welcome Area Start -->
+    <section class="welcome-area" id="home">
+        <div class="welcome-slides owl-carousel">
+            <!-- Single Slide -->
+            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/bg-img/fondo.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <!-- Welcome Text -->
+                        <div class="col-12 col-lg-8 col-xl-6">
+                            <div class="welcome-text">
+                                <h2 data-animation="bounceInDown" data-delay="900ms">Judit Conde</h2>
+                                <p data-animation="bounceInDown" data-delay="500ms">I photograph very instinctively. I see how it is taken like that. I do not follow certain styles, philosophies or teachers.</p>
+                                <div class="hero-btn-group" data-animation="bounceInDown" data-delay="100ms">
+                                    <a href="#" class="btn alime-btn mb-3 mb-sm-0 mr-4">Get a free quote</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single Slide -->
+            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/bg-img/fondo2.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <!-- Welcome Text -->
+                        <div class="col-12 col-lg-8 col-xl-6">
+                            <div class="welcome-text">
+                                <h2 data-animation="bounceInUp" data-delay="100ms">Judit Conde</h2>
+                                <p data-animation="bounceInUp" data-delay="500ms">I photograph very instinctively. I see how it is taken like that. I do not follow certain styles, philosophies or teachers.</p>
+                                <div class="hero-btn-group" data-animation="bounceInUp" data-delay="900ms">
+                                    <a href="#" class="btn alime-btn mb-3 mb-sm-0 mr-4">Presupuestos</a>
+                                    <a class="hero-mail-contact" href="mailto:hello.alime@gmail.com"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Welcome Area End -->
+
+    <!-- Gallery Area Start -->
+    <div class="alime-portfolio-area section-padding-20 clearfix" id="gallery">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Projects Menu -->
+                    <div class="alime-projects-menu">
+                    <h2 id="id_gallery">GALLERY</h2>
+                        <div class="portfolio-menu text-center">
+                            <button class="btn active" data-filter="*"></button>
+                            <button class="btn" data-filter=".human"></button>
+                            <button class="btn" data-filter=".nature"></button>
+                            <button class="btn" data-filter=".country"></button>
+                            <button class="btn" data-filter=".video"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row alime-portfolio">
+                <!-- Single Gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item video human mb-30 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="single-portfolio-content" style="cursor: pointer;">
+                        <img src="img/2_basket/img1.jpg" alt="">
+                        <div class="hover-content">
+                            <p class="img_category">CategoryX</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item video human mb-30 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="single-portfolio-content" style="cursor: pointer;">
+                        <img src="img/2_basket/img1.jpg" alt="">
+                        <div class="hover-content">
+                            <p class="img_category">CategoryX</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item video human mb-30 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="single-portfolio-content" style="cursor: pointer;">
+                        <img src="img/2_basket/img1.jpg" alt="">
+                        <div class="hover-content">
+                            <p class="img_category">CategoryX</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item video human mb-30 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="single-portfolio-content" style="cursor: pointer;">
+                        <img src="img/2_basket/img1.jpg" alt="">
+                        <div class="hover-content">
+                            <p class="img_category">CategoryX</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item video human mb-30 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="single-portfolio-content" style="cursor: pointer;">
+                        <img src="img/2_basket/img1.jpg" alt="">
+                        <div class="hover-content">
+                            <p class="img_category">CategoryX</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item video human mb-30 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="single-portfolio-content" style="cursor: pointer;">
+                        <img src="img/2_basket/img1.jpg" alt="">
+                        <div class="hover-content">
+                            <p class="img_category">CategoryX</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item video human mb-30 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="single-portfolio-content" style="cursor: pointer;">
+                        <img src="img/2_basket/img1.jpg" alt="">
+                        <div class="hover-content">
+                            <p class="img_category">CategoryX</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item video human mb-30 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="single-portfolio-content" style="cursor: pointer;">
+                        <img src="img/2_basket/img1.jpg" alt="">
+                        <div class="hover-content">
+                            <p class="img_category">CategoryX</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Gallery Item -->
+                <!--<div class="col-12 col-sm-6 col-lg-6 single_gallery_item video country mb-30 wow fadeInUp" data-wow-delay="100ms">
+                     <div class="single-portfolio-content">
+                        <a href="#"><img src="img/bg-img/36.jpg" alt=""></a>
+                    </div>
+                </div>-->
+
+                <!-- Single Gallery Item -->
+                <!--<div class="col-12 col-sm-6 col-lg-3 single_gallery_item human mb-30 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="single-portfolio-content">
+                        <a href="#"><img src="img/bg-img/portrait4.3.jpg" alt=""></a>
+                    </div>
+                </div>-->
+
+                <!-- Single Gallery Item -->
+               <!-- <div class="col-12 col-sm-6 col-lg-3 single_gallery_item country mb-30 wow fadeInUp" data-wow-delay="500ms">
+                    <div class="single-portfolio-content">
+                        <a href="#"><img src="img/bg-img/5.jpg" alt=""></a>
+                    </div>
+                </div>-->
+                </div>
+            </div>
+
+            <div class="rowblank">
+            </div>
+        </div>
+    </div>
+    <!-- Gallery Area End -->
+
+    <!-- Follow Area Start -->
+    <section class="follow-area clearfix">
+        <h2 id="id_about">ABOUT</h2>
+        <div class="container row_about">    
+            <div id="profilePic" class="section-heading text-center">       
+                <img class="jud" src="img/bg-img/judit.jpeg">                        
+            </div>
+            <p id="textMyself">Judit Conde es una fotógrafa y creadora de contenido de Barcelona.
+            Apasionada del arte en todo tipo de disciplinas, ha estudiado diseño, animación y arte digital mientras aprendía fotografía y vídeo de forma autodidacta.
+            Se especializa principalmente en fotografía deportiva, moda y retrato. Instagram:<a target="_blank" href="https://www.instagram.com/condevisual/?hl=es"> @condevisual</a>
+            <br><br><br><br>
+            Judit Conde is a female photographer and content creator based in Barcelona.
+            Passionate about art in all kinds of disciplines, she has studied design, animation and digital art while learning photography
+            and videography in a self-taught way. Mainly specialized in sports, fashion and portrait photography. Instagram:<a target="_blank" href="https://www.instagram.com/condevisual/?hl=es"> @condevisual</a></p>
+        </div>
+    </section>
+    
+    <section class="contact">
+        <h2 id="id_contact">CONTACT</h2>
+        <div class="background">
+        <div class="container">
+            <div class="screen">
+            <div class="screen-header"></div>
+            <div class="screen-body">
+                <div class="screen-body-item left">
+                <div class="app-title">
+                    <span>LET'S WORK WORK</span>
+                </div>
+                <div class="app-contact">CONTACT INFO: +34 618 679 693</div>
+                </div>
+                <div class="screen-body-item">
+                <form class="app-form" action="https://formsubmit.co/conde.fotocontact@gmail.com" method="POST" target="_blank">
+                    <div class="app-form-group">
+                        <input class="app-form-control" name="name" placeholder="NAME" required>
+                    </div>
+                    <div class="app-form-group">
+                        <input class="app-form-control" name="email" placeholder="EMAIL" required>
+                    </div>
+                    <div class="app-form-group">
+                        <input class="app-form-control" name="subject" placeholder="SUBJECT" required>
+                    </div>
+                    <div class="app-form-group message">
+                        <input class="app-form-control" placeholder="MESSAGE" required>
+                    </div>
+                    <div class="app-form-group buttons">
+                        <button class="app-form-button">SEND</button>
+                    </div>
+                </form>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Footer Area Start -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-content d-flex align-items-center justify-content-between">
+                        <!-- Copywrite Text -->
+                        <div class="copywrite-text">
+                            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                        </div>
+                        <!-- Footer Logo -->
+                        <div class="footer-logo">
+                            <a href="#"><img src="" width="20%" alt=""></a>
+                        </div>
+                        <!-- Social Info -->
+                        <div class="social-info">
+                            <a href="https://www.instagram.com/condevisual/?hl=es" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/judit-c-580281159/" target="_blank"><i class="ti-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://twitter.com/condevisual" target="_blank"><i class="ti-twitter-alt" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Area End -->
+
+    <!-- **** All JS Files ***** -->
+    <!-- jQuery 2.2.4 -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Popper -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins -->
+    <script src="js/alime.bundle.js"></script>
+    <!-- Active -->
+    <script src="js/default-assets/active.js"></script>
+    
+    <script>
+    function setActive(comeFrom) {
+        if(comeFrom == "home"){
+            $("#home_link").attr('class', 'active');
+            $("#about_link").attr('class', '');
+            $("#contact_link").attr('class', '');
+            $("#gallery_link").attr('class', '');
+        }
+        else if(comeFrom == "about"){
+            $("#home_link").attr('class', '');
+            $("#about_link").attr('class', 'active');
+            $("#contact_link").attr('class', '');
+            $("#gallery_link").attr('class', '');
+        
+        }else if(comeFrom =="contact"){
+            $("#home_link").attr('class', '');
+            $("#about_link").attr('class', '');
+            $("#contact_link").attr('class', 'active');
+            $("#gallery_link").attr('class', '');
+
+        
+        }else if(comeFrom =="gallery"){
+            $("#home_link").attr('class', '');
+            $("#about_link").attr('class', '');
+            $("#contact_link").attr('class', '');
+            $("#gallery_link").attr('class', 'active');
+        
+        }
+    }
+    
+    /*---------------------------------------------------- */
+  	/* Smooth Scrolling
+  	------------------------------------------------------ */
+  	$('.smoothscroll').on('click', function (e) {
+	 	
+	 	e.preventDefault();
+
+   	var target = this.hash,
+    	$target = $(target);
+
+    	$('html, body').stop().animate({
+       	'scrollTop': $target.offset().top
+      }, 800, 'swing', function () {
+      	window.location.hash = target;
+      });
+
+  	});  
+  	
+  	//obrir fotos de la galleria
+  	function openCategory(destiny) {
+            window.open(destiny, "_blank");
+        }
+        </script>
+    </body>
+</html>
