@@ -712,11 +712,13 @@ input:required {
   width: 10%;
 }
 
+
+
 /* :: 9.0 Footer CSS */
 .footer-content {
   padding: 20px 0; }
   .footer-content .copywrite-text {
-    position: relative;
+    margin-left: 40%;
     z-index: 1; }
     .footer-content .copywrite-text p {
       margin-bottom: 0;
