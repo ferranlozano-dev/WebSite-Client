@@ -672,7 +672,7 @@ input:required {
   position: relative;
   z-index: 2;
   width: 100%;
-  height: 880px;
+  height: 700px;
   background-color: #fc6060; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .single-welcome-slide {
@@ -1827,6 +1827,14 @@ input:required {
 }
 .rowblank{
     padding-top:5%;
+}
+.single_gallery_item{
+    padding: 5px;
+    margin:0px;
+}
+
+.picsContainer{
+    margin-bottom:5%;
 }
   
   /*RESPONSIVE WEB MEDIA https://stackoverflow.com/questions/18477016/switching-css-classes-based-on-screen-size*/
