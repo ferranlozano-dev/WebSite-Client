@@ -1159,4 +1159,12 @@ text-shadow: none;
 
 .row_about #textMyself {
 	font-size: 15px;
+	text-align: left;
+}
+
+#nameNavBar{
+	color: #ffffff;
+	font-size: 18px;
+	position: absolute;
+	margin-left: 10%;
 }
