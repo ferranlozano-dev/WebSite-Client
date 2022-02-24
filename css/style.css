@@ -1155,5 +1155,8 @@ text-shadow: none;
 	.glyph .fs1 {
 		font-size: 2em;
 	}
-
 	
+
+.row_about #textMyself {
+	font-size: 15px;
+}
