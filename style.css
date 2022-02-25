@@ -1750,10 +1750,10 @@ input:required {
     }
     
     #textMyself{
-      width:90%;
-      position:relative;
+      width: 90%;
+      position: relative;
       left: 50%;
-      transform:translateX(-50%);
+      transform: translateX(-50%);
       margin: 0px;
     }
     
@@ -1835,6 +1835,12 @@ input:required {
 
 .picsContainer{
     margin-bottom:5%;
+}
+
+.social-info-about {
+  position: relative;
+  margin-top: 33%;
+  margin-left: -50%;
 }
   
   /*RESPONSIVE WEB MEDIA https://stackoverflow.com/questions/18477016/switching-css-classes-based-on-screen-size*/
